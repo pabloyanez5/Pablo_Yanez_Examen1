@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\exam\\Pablo_Yanez_Examen1\\wwwroot\\images\\meme.png",
+      "PackagePath": "staticwebassets\\images\\meme.png"
+    },
+    {
       "Id": "D:\\exam\\Pablo_Yanez_Examen1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

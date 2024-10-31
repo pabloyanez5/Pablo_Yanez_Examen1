@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
+// CREADO POR PABLO YANEZ
 namespace Pablo_Yanez_Examen1.Models
 {
     public class Celular

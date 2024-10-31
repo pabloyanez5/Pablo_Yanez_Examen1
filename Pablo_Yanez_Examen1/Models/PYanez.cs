@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+// CREADO POR PABLO YANEZ
 namespace Pablo_Yanez_Examen1.Models
 {
     public class PYanez

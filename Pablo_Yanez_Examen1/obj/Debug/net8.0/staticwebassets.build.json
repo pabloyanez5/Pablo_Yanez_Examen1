@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nxQ/alyrvrnCU6ApvXF2Rwg0VOuvYFeiJaZE5m2lccc=",
+  "Hash": "qpLVPvsqj7/WukkPNw5ethZ6P2hknP5WYYaeyHmxe+o=",
   "Source": "Pablo_Yanez_Examen1",
   "BasePath": "_content/Pablo_Yanez_Examen1",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\exam\\Pablo_Yanez_Examen1\\wwwroot\\images\\meme.png",
+      "SourceId": "Pablo_Yanez_Examen1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\exam\\Pablo_Yanez_Examen1\\wwwroot\\",
+      "BasePath": "_content/Pablo_Yanez_Examen1",
+      "RelativePath": "images/meme.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\meme.png"
     },
     {
       "Identity": "D:\\exam\\Pablo_Yanez_Examen1\\wwwroot\\js\\site.js",

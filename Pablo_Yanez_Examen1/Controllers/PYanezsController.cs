@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Pablo_Yanez_Examen1.Data;
 using Pablo_Yanez_Examen1.Models;
@@ -28,17 +27,10 @@ namespace Pablo_Yanez_Examen1.Controllers
         // GET: PYanezs/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var pYanez = await _context.PYanez
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (pYanez == null)
-            {
-                return NotFound();
-            }
+            var pYanez = await _context.PYanez.FirstOrDefaultAsync(m => m.Id == id);
+            if (pYanez == null) return NotFound();
 
             return View(pYanez);
         }
@@ -50,8 +42,6 @@ namespace Pablo_Yanez_Examen1.Controllers
         }
 
         // POST: PYanezs/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Edad,Sueldo,Estado,Registro")] PYanez pYanez)
@@ -68,30 +58,20 @@ namespace Pablo_Yanez_Examen1.Controllers
         // GET: PYanezs/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var pYanez = await _context.PYanez.FindAsync(id);
-            if (pYanez == null)
-            {
-                return NotFound();
-            }
+            if (pYanez == null) return NotFound();
+
             return View(pYanez);
         }
 
         // POST: PYanezs/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Edad,Sueldo,Estado,Registro")] PYanez pYanez)
         {
-            if (id != pYanez.Id)
-            {
-                return NotFound();
-            }
+            if (id != pYanez.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
@@ -102,14 +82,8 @@ namespace Pablo_Yanez_Examen1.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PYanezExists(pYanez.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!PYanezExists(pYanez.Id)) return NotFound();
+                    else throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -119,17 +93,10 @@ namespace Pablo_Yanez_Examen1.Controllers
         // GET: PYanezs/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var pYanez = await _context.PYanez
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (pYanez == null)
-            {
-                return NotFound();
-            }
+            var pYanez = await _context.PYanez.FirstOrDefaultAsync(m => m.Id == id);
+            if (pYanez == null) return NotFound();
 
             return View(pYanez);
         }
@@ -140,10 +107,7 @@ namespace Pablo_Yanez_Examen1.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var pYanez = await _context.PYanez.FindAsync(id);
-            if (pYanez != null)
-            {
-                _context.PYanez.Remove(pYanez);
-            }
+            if (pYanez != null) _context.PYanez.Remove(pYanez);
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

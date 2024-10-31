@@ -17,79 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pablo_Yanez_Examen1
 build_property.RootNamespace = Pablo_Yanez_Examen1
-build_property.ProjectDir = D:\PY\Pablo_Yanez_Examen1\Pablo_Yanez_Examen1\
+build_property.ProjectDir = D:\exam\Pablo_Yanez_Examen1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PY\Pablo_Yanez_Examen1\Pablo_Yanez_Examen1
+build_property.MSBuildProjectDirectory = D:\exam\Pablo_Yanez_Examen1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Celulars/Create.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Celulars/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VsdWxhcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Celulars/Delete.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Celulars/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VsdWxhcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Celulars/Details.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Celulars/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VsdWxhcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Celulars/Edit.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Celulars/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VsdWxhcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Celulars/Index.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Celulars/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VsdWxhcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Home/Index.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Home/Privacy.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/PYanezs/Create.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/PYanezs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFlhbmV6c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/PYanezs/Delete.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/PYanezs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFlhbmV6c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/PYanezs/Details.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/PYanezs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFlhbmV6c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/PYanezs/Edit.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/PYanezs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFlhbmV6c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/PYanezs/Index.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/PYanezs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFlhbmV6c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Shared/Error.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/_ViewImports.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/_ViewStart.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PY/Pablo_Yanez_Examen1/Pablo_Yanez_Examen1/Views/Shared/_Layout.cshtml]
+[D:/exam/Pablo_Yanez_Examen1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9x1hl9gnfv

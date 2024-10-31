@@ -16,7 +16,7 @@ namespace Pablo_Yanez_Examen1.Models
         public decimal Precio { get; set; }
         public int PYanezId { get; set; }
         [ForeignKey("PYanezId")]
-        public PYanez pYanez { get; set; }
+        public PYanez? pYanez { get; set; }
 
     }
 }

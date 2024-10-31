@@ -17,7 +17,7 @@ namespace Pablo_Yanez_Examen1.Models
         public bool Estado { get; set; }
         [DataType(DataType.Date)]
         public DateTime Registro { get; set; }
-        public Celular celular { get; set; }
+        public Celular? celular { get; set; }
 
     }
 }

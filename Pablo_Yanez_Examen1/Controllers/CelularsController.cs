@@ -22,25 +22,20 @@ namespace Pablo_Yanez_Examen1.Controllers
         // GET: Celulars
         public async Task<IActionResult> Index()
         {
-            var pablo_Yanez_Examen1Context = _context.Celular.Include(c => c.pYanez);
-            return View(await pablo_Yanez_Examen1Context.ToListAsync());
+            var celulares = _context.Celular.Include(c => c.pYanez);
+            return View(await celulares.ToListAsync());
         }
 
         // GET: Celulars/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var celular = await _context.Celular
                 .Include(c => c.pYanez)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (celular == null)
-            {
-                return NotFound();
-            }
+
+            if (celular == null) return NotFound();
 
             return View(celular);
         }
@@ -53,8 +48,6 @@ namespace Pablo_Yanez_Examen1.Controllers
         }
 
         // POST: Celulars/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Modelo,Año,Precio,PYanezId")] Celular celular)
@@ -72,31 +65,21 @@ namespace Pablo_Yanez_Examen1.Controllers
         // GET: Celulars/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var celular = await _context.Celular.FindAsync(id);
-            if (celular == null)
-            {
-                return NotFound();
-            }
+            if (celular == null) return NotFound();
+
             ViewData["PYanezId"] = new SelectList(_context.PYanez, "Id", "Name", celular.PYanezId);
             return View(celular);
         }
 
         // POST: Celulars/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Modelo,Año,Precio,PYanezId")] Celular celular)
         {
-            if (id != celular.Id)
-            {
-                return NotFound();
-            }
+            if (id != celular.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
@@ -107,14 +90,8 @@ namespace Pablo_Yanez_Examen1.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CelularExists(celular.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!CelularExists(celular.Id)) return NotFound();
+                    else throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -125,18 +102,13 @@ namespace Pablo_Yanez_Examen1.Controllers
         // GET: Celulars/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var celular = await _context.Celular
                 .Include(c => c.pYanez)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (celular == null)
-            {
-                return NotFound();
-            }
+
+            if (celular == null) return NotFound();
 
             return View(celular);
         }
@@ -147,10 +119,7 @@ namespace Pablo_Yanez_Examen1.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var celular = await _context.Celular.FindAsync(id);
-            if (celular != null)
-            {
-                _context.Celular.Remove(celular);
-            }
+            if (celular != null) _context.Celular.Remove(celular);
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
